@@ -5,6 +5,10 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.layers.normalization import BatchNormalization
 from keras.layers.advanced_activations import LeakyReLU
 
+batch_size = 64
+epochs = 30
+num_classes = 12
+
 #leaky relu
 tmodel = Sequential()
 
